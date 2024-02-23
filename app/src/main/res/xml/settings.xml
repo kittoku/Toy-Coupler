@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Routing">
+        <kittoku.tc.preference.custom.RouteDoAddDefaultRoutePreference android:key="ROUTE_DO_ADD_DEFAULT_ROUTE"/>
+        <kittoku.tc.preference.custom.RouteDoRoutePrivateAddresses android:key="ROUTE_DO_ROUTE_PRIVATE_ADDRESSES"/>
+        <kittoku.tc.preference.custom.RouteDoAddCustomRoutesPreference android:key="ROUTE_DO_ADD_CUSTOM_ROUTES"/>
+        <kittoku.tc.preference.custom.RouteCustomRoutesPreference android:key="ROUTE_CUSTOM_ROUTES"/>
+        <kittoku.tc.preference.custom.RouteDoEnableAppBasedRulePreference android:key="ROUTE_DO_ENABLE_APP_BASED_RULE"/>
+        <kittoku.tc.preference.custom.RouteAllowedAppsPreference android:key="ROUTE_ALLOWED_APPS"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Log">
+        <kittoku.tc.preference.custom.LogDoSaveLogPreference android:key="LOG_DO_SAVE_LOG"/>
+        <kittoku.tc.preference.custom.LogDirPreference android:key="LOG_DIR"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <kittoku.tc.preference.custom.LinkOscPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

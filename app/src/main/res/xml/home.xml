@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <kittoku.tc.preference.custom.HomeModePreference android:key="HOME_MODE"/>
+    <kittoku.tc.preference.custom.HomeAssignedIPAddressPreference android:key="HOME_ADDRESS"/>
+    <kittoku.tc.preference.custom.HomeThresholdPreference android:key="HOME_THRESHOLD"/>
+    <kittoku.tc.preference.custom.HomeConnectorPreference android:key="HOME_CONNECTOR" />
+
+    <PreferenceCategory>
+        <kittoku.tc.preference.custom.HomeStatusPreference android:key="HOME_STATUS"/>
+    </PreferenceCategory>
+</PreferenceScreen>
