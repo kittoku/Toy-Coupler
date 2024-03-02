@@ -39,6 +39,8 @@ internal class HomeAssignedIPAddressPreference(context: Context, attrs: Attribut
     override val preferenceTitle = "IPv4 Address to be assigned"
 
     override fun initEditText(editText: EditText) {
+        super.initEditText(editText)
+
         editText.hint = "169.254.0.1"
     }
 }
